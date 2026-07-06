@@ -7,8 +7,59 @@
     #publications,
     #projects,
     #awards,
+    #competitions,
+    #honors,
     #talks {
         scroll-margin-top: 80px;
+    }
+
+    /* ===== Sidebar avatar: circular, slightly larger ===== */
+    .author__avatar img {
+        max-width: 200px !important;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: 50% !important;
+    }
+
+    /* ===== Honors certificate grid ===== */
+    .honor-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 16px;
+        margin: 16px 0 28px;
+    }
+
+    .honor-card {
+        display: block;
+        background: #fff;
+        border: 1.5px solid #eee;
+        border-radius: 12px;
+        padding: 12px 12px 10px;
+        text-align: center;
+        text-decoration: none !important;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .honor-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+    }
+
+    .honor-card img {
+        width: 100%;
+        height: 170px;
+        object-fit: contain;
+        border-radius: 6px;
+        background: #fafafa;
+    }
+
+    .honor-card .honor-title {
+        display: block;
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 1.4;
+        color: #444;
     }
   
       /* ===== News Scroll Box ===== */

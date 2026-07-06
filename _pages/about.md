@@ -41,7 +41,7 @@ Experience
 <div class="experience-container">
 
   <div class="experience-card">
-      <img src="images/hku.jpg" alt="HKU logo" class="experience-logo">
+      <img src="images/hku.png" alt="HKU logo" class="experience-logo">
       <div class="experience-info">
           <strong>The University of Hong Kong (HKU)</strong><br>
           <em>2026.06 - Present</em> · Hong Kong SAR<br>
@@ -66,7 +66,7 @@ Experience
           <strong>VRobotIT Lab, BUPT</strong><br>
           <em>2026.02 - Present</em> · Beijing, China<br>
           Research Intern at the <a href="https://www.vrobotit.cn/"><em>VRobotIT Lab</em></a><br>
-          <span style="color:#888;">Conducting research resulting in a first-author publication.</span>
+          <span style="color:#888;">Researching novel depth estimation models and 3D vision; work resulting in a first-author publication.</span>
       </div>
   </div>
 
@@ -87,6 +87,16 @@ Experience
           <em>2025.03 - 2025.06</em> · Beijing, China<br>
           Research Intern — Advisor: <em>Prof. Xi Zhang</em><br>
           <span style="color:#888;">Local deployment of DeepSeek-671B, batch inference, and safety guardrails.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/cambridge.webp" alt="University of Cambridge logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>University of Cambridge — AI Summer School</strong><br>
+          <em>2024.07</em> · Cambridge, UK<br>
+          Summer Research Program on Artificial Intelligence<br>
+          <span style="color:#888;">Studied foundational theories of computer vision. <a href="files/cambridge_ai_summer_school.pdf" target="_blank">[certificate]</a></span>
       </div>
   </div>
 
@@ -112,42 +122,57 @@ Publications
 <div id="core-publications" class="publication-view" data-publication-view="core">
 
 <div class="publication-card" data-category="all">
-  <div>
-    <strong>ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling</strong><br>
-    <i style="font-size: 13px;">
-      <strong>Mengke Zhang</strong>, et al.
-    </i><br>
-    We identify "Semantic Dominance" in Speech Emotion Recognition and Audio LLMs, introduce the ASPIRE adversarial benchmark with SOP/LDD metrics, and propose ACR-Net, which disentangles contradictory acoustic-semantic representations into orthogonal latent spaces via cross-modal attention and a contrastive decoupling loss.
-    <br>
-    <b><i style="color:#83a1c7;">Interspeech 2026 (CCF-B / CORE-A) &nbsp;</i></b>
-    <a href="files/ACR-Net_Interspeech2026.pdf" target="_blank"><em>[pdf]</em></a>
-    <a href="https://github.com/zmkshakespar/ACR-Net" target="_blank"><em>[code]</em></a>
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/pub_acrnet.png" alt="ACR-Net" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling</strong><br>
+      <i style="font-size: 13px;">
+        <strong>Mengke Zhang</strong>, et al.
+      </i><br>
+      We identify "Semantic Dominance" in Speech Emotion Recognition and Audio LLMs, introduce the ASPIRE adversarial benchmark with SOP/LDD metrics, and propose ACR-Net, which disentangles contradictory acoustic-semantic representations into orthogonal latent spaces via cross-modal attention and a contrastive decoupling loss.
+      <br>
+      <b><i style="color:#83a1c7;">Interspeech 2026 (CCF-B / CORE-A) &nbsp;</i></b>
+      <a href="files/ACR-Net_Interspeech2026.pdf" target="_blank"><em>[pdf]</em></a>
+      <a href="https://github.com/zmkshakespar/ACR-Net" target="_blank"><em>[code]</em></a>
+    </div>
   </div>
 </div>
 
 <div class="publication-card" data-category="all">
-  <div>
-    <strong>Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes</strong><br>
-    <i style="font-size: 13px;">
-      <strong>Mengke Zhang</strong>, et al.
-    </i><br>
-    We propose a phoneme-aware active watermarking defense built on a dual-column bidirectional State Space Model (Mamba). A phoneme-guided embedding mechanism couples the watermark with speech semantics to resist diffusion-based purification attacks, enabling reliable source tracing with ultra-low latency.
-    <br>
-    <b><i style="color:#83a1c7;">Interspeech 2026 (CCF-B / CORE-A) &nbsp;</i></b>
-    <a href="files/Phoneme-Aware-Mamba-Watermark_Interspeech2026.pdf" target="_blank"><em>[pdf]</em></a>
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/pub_mamba_watermark.png" alt="Phoneme-Aware Mamba Watermark" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes</strong><br>
+      <i style="font-size: 13px;">
+        <strong>Mengke Zhang</strong>, et al.
+      </i><br>
+      We propose a phoneme-aware active watermarking defense built on a dual-column bidirectional State Space Model (Mamba). A phoneme-guided embedding mechanism couples the watermark with speech semantics to resist diffusion-based purification attacks, enabling reliable source tracing with ultra-low latency.
+      <br>
+      <b><i style="color:#83a1c7;">Interspeech 2026 (CCF-B / CORE-A) &nbsp;</i></b>
+      <a href="files/Phoneme-Aware-Mamba-Watermark_Interspeech2026.pdf" target="_blank"><em>[pdf]</em></a>
+    </div>
   </div>
 </div>
 
 <div class="publication-card" data-category="all">
-  <div>
-    <strong>Learning Dual Mixture-of-Experts Models for Unified Image Deraining</strong><br>
-    <i style="font-size: 13px;">
-      Tianyi Yang*, <strong>Mengke Zhang*</strong>, Tianshuo Chen.
-    </i><br>
-    We build Hybrid-Rain10K, a benchmark unifying rain streaks, raindrops, and rain accumulation, and propose a dual Mixture-of-Experts model — an encoder Soft-MoE for comprehensive degradation modeling and a decoder Hard-MoE with high-frequency-guided top-k routing — for unified image deraining.
-    <br>
-    <b><i style="color:#83a1c7;">ICASSP 2026 (CCF-B / CORE-A) &nbsp;</i></b>
-    <a href="files/DualMoE_Unified-Image-Deraining_ICASSP2026.pdf" target="_blank"><em>[pdf]</em></a>
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/pub_dualmoe.png" alt="DualMoE" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Learning Dual Mixture-of-Experts Models for Unified Image Deraining</strong><br>
+      <i style="font-size: 13px;">
+        Tianyi Yang*, <strong>Mengke Zhang*</strong>, Tianshuo Chen.
+      </i><br>
+      We build Hybrid-Rain10K, a benchmark unifying rain streaks, raindrops, and rain accumulation, and propose a dual Mixture-of-Experts model — an encoder Soft-MoE for comprehensive degradation modeling and a decoder Hard-MoE with high-frequency-guided top-k routing — for unified image deraining.
+      <br>
+      <b><i style="color:#83a1c7;">ICASSP 2026 (CCF-B / CORE-A) &nbsp;</i></b>
+      <a href="files/DualMoE_Unified-Image-Deraining_ICASSP2026.pdf" target="_blank"><em>[pdf]</em></a>
+    </div>
   </div>
 </div>
 
@@ -200,8 +225,47 @@ Publications
 <script src="assets/js/pub_media_rotator.js"></script>
 
 
-Awards
+Competitions
 --------
-- *2025*, Honorable Mention, Mathematical Contest in Modeling (MCM/ICM).
-- *2025*, Third Prize, 2025 ICCIP Information Innovation Competition.
-- *2025*, Third Prize, Asia-Pacific Mathematical Modeling Competition.
+- *2025-2026*, **Second Prize**, "Challenge Cup" National College Student Innovation & Entrepreneurship Competition.
+- *2025*, **Honorable Mention**, Mathematical Contest in Modeling (MCM/ICM). <a href="files/mcm_honorable_mention.pdf" target="_blank">[certificate]</a>
+- *2025*, **Third Prize**, 2025 ICCIP Information Innovation Competition.
+- *2025*, **Third Prize**, Asia-Pacific Mathematical Modeling Competition (APMCM). <a href="files/apmcm_third_prize.pdf" target="_blank">[certificate]</a>
+
+
+Honors
+--------
+
+<div class="honor-grid">
+
+  <a class="honor-card" href="files/scholarship_second_24-25.pdf" target="_blank">
+    <img src="images/honors/scholarship_second_24-25.jpg" alt="Second-Class Scholarship certificate">
+    <span class="honor-title">Second-Class University Scholarship (2024-2025)</span>
+  </a>
+
+  <a class="honor-card" href="files/scholarship_third_23-24.pdf" target="_blank">
+    <img src="images/honors/scholarship_third_23-24.jpg" alt="Third-Class Scholarship certificate">
+    <span class="honor-title">Third-Class University Scholarship (2023-2024)</span>
+  </a>
+
+  <a class="honor-card" href="files/honor_merit_student_23-24.pdf" target="_blank">
+    <img src="images/honors/honor_merit_student_23-24.jpg" alt="Merit Student certificate">
+    <span class="honor-title">Merit Student (2023-2024)</span>
+  </a>
+
+  <a class="honor-card" href="files/honor_student_cadre_24-25.pdf" target="_blank">
+    <img src="images/honors/honor_student_cadre_24-25.jpg" alt="Outstanding Student Cadre certificate">
+    <span class="honor-title">Outstanding Student Cadre (2024-2025)</span>
+  </a>
+
+  <a class="honor-card" href="files/honor_league_secretary_25.pdf" target="_blank">
+    <img src="images/honors/honor_league_secretary_25.jpg" alt="Outstanding League Branch Secretary certificate">
+    <span class="honor-title">Outstanding League Branch Secretary (2025)</span>
+  </a>
+
+  <a class="honor-card" href="files/honor_peer_mentor_25.pdf" target="_blank">
+    <img src="images/honors/honor_peer_mentor_25.jpg" alt="Outstanding Peer Mentor Volunteer certificate">
+    <span class="honor-title">Outstanding Peer Mentor Volunteer (2025)</span>
+  </a>
+
+</div>

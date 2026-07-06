@@ -10,8 +10,11 @@ main:
   - title: "Pub"
     url: "/#publications"
 
-  - title: "Awards"
-    url: "/#awards"
+  - title: "Competitions"
+    url: "/#competitions"
+
+  - title: "Honors"
+    url: "/#honors"
 
   - title: "CV-En"
     url: "/files/CV_ZHANG_Mengke.pdf"
