@@ -45,7 +45,7 @@ Experience
       <div class="experience-info">
           <strong>The University of Hong Kong (HKU)</strong><br>
           <em>2026.06 - Present</em> · Hong Kong SAR<br>
-          Research Intern at the <a href="https://meweb.hku.hk/zljiang/"><em>Medical Intelligence and Robotic Cognition (MIRoC) Lab</em></a><br>
+          Research Intern at the <a href="https://meweb.hku.hk/zljiang/"><em>Medical Intelligence and Robotic Cognition (MIRoC) Lab</em></a> — Advisor: <a href="https://scholar.google.com/citations?user=X41OzcYAAAAJ"><em>Dr. Zhongliang Jiang</em></a><br>
           <span style="color:#888;">Working on 3D reconstruction from ultrasound images for medical imaging.</span>
       </div>
   </div>
@@ -55,7 +55,7 @@ Experience
       <div class="experience-info">
           <strong>Xiaomi</strong><br>
           <em>2026.03 - 2026.07</em> · Beijing, China<br>
-          Autonomous Driving Algorithm Intern — Leader: <em>Dr. Naiyan Wang</em><br>
+          Autonomous Driving Algorithm Intern — Leader: <a href="https://scholar.google.com/citations?user=yAWtq6QAAAAJ"><em>Dr. Naiyan Wang</em></a><br>
           <span style="color:#888;">3D perception (occupancy) and trajectory prediction for autonomous driving. <a href="files/xiaomi_internship_certificate.pdf" target="_blank">[certificate]</a></span>
       </div>
   </div>
@@ -65,7 +65,7 @@ Experience
       <div class="experience-info">
           <strong>VRobotIT Lab, BUPT</strong><br>
           <em>2026.02 - Present</em> · Beijing, China<br>
-          Research Intern at the <a href="https://www.vrobotit.cn/"><em>VRobotIT Lab</em></a><br>
+          Research Intern at the <a href="https://www.vrobotit.cn/"><em>VRobotIT Lab</em></a> — Advisor: <a href="https://scholar.google.com/citations?user=y5kFLCwAAAAJ"><em>Prof. Anlong Ming</em></a><br>
           <span style="color:#888;">Researching novel depth estimation models and 3D vision; work resulting in a first-author publication.</span>
       </div>
   </div>
@@ -85,7 +85,7 @@ Experience
       <div class="experience-info">
           <strong>STAIR Lab, BUPT</strong><br>
           <em>2025.03 - 2025.06</em> · Beijing, China<br>
-          Research Intern — Advisor: <em>Prof. Xi Zhang</em><br>
+          Research Intern — Advisor: <a href="https://scholar.google.com/citations?user=6sRtx0cAAAAJ"><em>Prof. Xi Zhang</em></a><br>
           <span style="color:#888;">Local deployment of DeepSeek-671B, batch inference, and safety guardrails.</span>
       </div>
   </div>
@@ -117,7 +117,7 @@ Publications
 <button class="pub-button active" onclick="filterPublications(event, 'all')">Core Publications</button>
 <button class="pub-button" onclick="filterPublications(event, 'list')">Full Publications List</button>
 
-(* equal contribution · &dagger; corresponding author)
+(* equal contribution)
 
 <div id="core-publications" class="publication-view" data-publication-view="core">
 
@@ -129,7 +129,7 @@ Publications
     <div>
       <strong>ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling</strong><br>
       <i style="font-size: 13px;">
-        <strong>Mengke Zhang</strong>, et al.
+        <strong>Mengke Zhang*</strong>, Yanda Shao*, Tianhe Wu*, Kai Feng.
       </i><br>
       We identify "Semantic Dominance" in Speech Emotion Recognition and Audio LLMs, introduce the ASPIRE adversarial benchmark with SOP/LDD metrics, and propose ACR-Net, which disentangles contradictory acoustic-semantic representations into orthogonal latent spaces via cross-modal attention and a contrastive decoupling loss.
       <br>
@@ -148,12 +148,13 @@ Publications
     <div>
       <strong>Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes</strong><br>
       <i style="font-size: 13px;">
-        <strong>Mengke Zhang</strong>, et al.
+        Yanda Shao*, <strong>Mengke Zhang*</strong>, Zhixin Lin*, Tianyi Yang.
       </i><br>
       We propose a phoneme-aware active watermarking defense built on a dual-column bidirectional State Space Model (Mamba). A phoneme-guided embedding mechanism couples the watermark with speech semantics to resist diffusion-based purification attacks, enabling reliable source tracing with ultra-low latency.
       <br>
       <b><i style="color:#83a1c7;">Interspeech 2026 (CCF-B / CORE-A) &nbsp;</i></b>
       <a href="files/Phoneme-Aware-Mamba-Watermark_Interspeech2026.pdf" target="_blank"><em>[pdf]</em></a>
+      <a href="https://github.com/Silence-ai423/phoneme-aware-mamba-watermark" target="_blank"><em>[code]</em></a>
     </div>
   </div>
 </div>
@@ -194,16 +195,16 @@ Publications
     <li>
       <span class="pub-list-badge">Interspeech 2026</span>
       <span class="pub-list-title">ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling</span><br>
-      <span class="pub-list-authors"><strong>Mengke Zhang</strong>, et al.</span>
+      <span class="pub-list-authors"><strong>Mengke Zhang*</strong>, Yanda Shao*, Tianhe Wu*, Kai Feng.</span>
       <span class="pub-list-note">CCF-B / CORE-A.</span>
       <span class="pub-list-links"><a href="files/ACR-Net_Interspeech2026.pdf" target="_blank">[pdf]</a><a href="https://github.com/zmkshakespar/ACR-Net" target="_blank">[code]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">Interspeech 2026</span>
       <span class="pub-list-title">Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes</span><br>
-      <span class="pub-list-authors"><strong>Mengke Zhang</strong>, et al.</span>
+      <span class="pub-list-authors">Yanda Shao*, <strong>Mengke Zhang*</strong>, Zhixin Lin*, Tianyi Yang.</span>
       <span class="pub-list-note">CCF-B / CORE-A.</span>
-      <span class="pub-list-links"><a href="files/Phoneme-Aware-Mamba-Watermark_Interspeech2026.pdf" target="_blank">[pdf]</a></span>
+      <span class="pub-list-links"><a href="files/Phoneme-Aware-Mamba-Watermark_Interspeech2026.pdf" target="_blank">[pdf]</a><a href="https://github.com/Silence-ai423/phoneme-aware-mamba-watermark" target="_blank">[code]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">ICASSP 2026</span>

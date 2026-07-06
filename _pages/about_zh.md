@@ -42,7 +42,7 @@ stylesheets:
       <div class="experience-info">
           <strong>香港大学（HKU）</strong><br>
           <em>2026.06 - 至今</em> · 中国香港<br>
-          <a href="https://meweb.hku.hk/zljiang/"><em>Medical Intelligence and Robotic Cognition (MIRoC) Lab</em></a> 科研实习生<br>
+          <a href="https://meweb.hku.hk/zljiang/"><em>Medical Intelligence and Robotic Cognition (MIRoC) Lab</em></a> 科研实习生 — 指导老师：<a href="https://scholar.google.com/citations?user=X41OzcYAAAAJ"><em>蒋中亮博士</em></a><br>
           <span style="color:#888;">研究面向医学影像的超声图像三维重建。</span>
       </div>
   </div>
@@ -52,7 +52,7 @@ stylesheets:
       <div class="experience-info">
           <strong>小米</strong><br>
           <em>2026.03 - 2026.07</em> · 中国北京<br>
-          自动驾驶算法实习生 — 负责人：<em>王乃岩博士</em><br>
+          自动驾驶算法实习生 — 负责人：<a href="https://scholar.google.com/citations?user=yAWtq6QAAAAJ"><em>王乃岩博士</em></a><br>
           <span style="color:#888;">自动驾驶三维感知（Occupancy）与轨迹预测。 <a href="/files/xiaomi_internship_certificate.pdf" target="_blank">[实习证明]</a></span>
       </div>
   </div>
@@ -62,7 +62,7 @@ stylesheets:
       <div class="experience-info">
           <strong>北京邮电大学 VRobotIT 实验室</strong><br>
           <em>2026.02 - 至今</em> · 中国北京<br>
-          <a href="https://www.vrobotit.cn/"><em>VRobotIT 实验室</em></a> 科研实习生<br>
+          <a href="https://www.vrobotit.cn/"><em>VRobotIT 实验室</em></a> 科研实习生 — 指导老师：<a href="https://scholar.google.com/citations?user=y5kFLCwAAAAJ"><em>明安龙教授</em></a><br>
           <span style="color:#888;">研究新型深度估计模型与三维视觉，成果产出一篇一作论文。</span>
       </div>
   </div>
@@ -82,7 +82,7 @@ stylesheets:
       <div class="experience-info">
           <strong>北京邮电大学 STAIR 实验室</strong><br>
           <em>2025.03 - 2025.06</em> · 中国北京<br>
-          科研实习生 — 指导老师：<em>张熙教授</em><br>
+          科研实习生 — 指导老师：<a href="https://scholar.google.com/citations?user=6sRtx0cAAAAJ"><em>张熙教授</em></a><br>
           <span style="color:#888;">DeepSeek-671B 本地化部署、批量推理与安全护栏。</span>
       </div>
   </div>
@@ -114,7 +114,7 @@ stylesheets:
 <button class="pub-button active" onclick="filterPublications(event, 'all')">代表性论文</button>
 <button class="pub-button" onclick="filterPublications(event, 'list')">完整论文列表</button>
 
-（* 共同一作 · &dagger; 通讯作者）
+（* 共同一作）
 
 <div id="core-publications" class="publication-view" data-publication-view="core">
 
@@ -126,7 +126,7 @@ stylesheets:
     <div>
       <strong>ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling</strong><br>
       <i style="font-size: 13px;">
-        <strong>Mengke Zhang</strong>, et al.
+        <strong>Mengke Zhang*</strong>, Yanda Shao*, Tianhe Wu*, Kai Feng.
       </i><br>
       我们揭示了语音情感识别与音频大模型中的"语义主导"问题，构建了 ASPIRE 对抗性基准与 SOP/LDD 指标，并提出 ACR-Net，通过跨模态注意力与对比解耦损失将相互冲突的声学-语义表征解耦至正交隐空间。
       <br>
@@ -145,12 +145,13 @@ stylesheets:
     <div>
       <strong>Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes</strong><br>
       <i style="font-size: 13px;">
-        <strong>Mengke Zhang</strong>, et al.
+        Yanda Shao*, <strong>Mengke Zhang*</strong>, Zhixin Lin*, Tianyi Yang.
       </i><br>
       我们提出基于双列双向状态空间模型（Mamba）的音素感知主动水印防御系统。音素引导的嵌入机制将水印与语音语义深度耦合，以抵抗基于扩散模型的净化攻击，实现超低延迟的可靠溯源。
       <br>
       <b><i style="color:#83a1c7;">Interspeech 2026（CCF-B / CORE-A）&nbsp;</i></b>
       <a href="/files/Phoneme-Aware-Mamba-Watermark_Interspeech2026.pdf" target="_blank"><em>[pdf]</em></a>
+      <a href="https://github.com/Silence-ai423/phoneme-aware-mamba-watermark" target="_blank"><em>[code]</em></a>
     </div>
   </div>
 </div>
@@ -191,16 +192,16 @@ stylesheets:
     <li>
       <span class="pub-list-badge">Interspeech 2026</span>
       <span class="pub-list-title">ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling</span><br>
-      <span class="pub-list-authors"><strong>Mengke Zhang</strong>, et al.</span>
+      <span class="pub-list-authors"><strong>Mengke Zhang*</strong>, Yanda Shao*, Tianhe Wu*, Kai Feng.</span>
       <span class="pub-list-note">CCF-B / CORE-A.</span>
       <span class="pub-list-links"><a href="/files/ACR-Net_Interspeech2026.pdf" target="_blank">[pdf]</a><a href="https://github.com/zmkshakespar/ACR-Net" target="_blank">[code]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">Interspeech 2026</span>
       <span class="pub-list-title">Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes</span><br>
-      <span class="pub-list-authors"><strong>Mengke Zhang</strong>, et al.</span>
+      <span class="pub-list-authors">Yanda Shao*, <strong>Mengke Zhang*</strong>, Zhixin Lin*, Tianyi Yang.</span>
       <span class="pub-list-note">CCF-B / CORE-A.</span>
-      <span class="pub-list-links"><a href="/files/Phoneme-Aware-Mamba-Watermark_Interspeech2026.pdf" target="_blank">[pdf]</a></span>
+      <span class="pub-list-links"><a href="/files/Phoneme-Aware-Mamba-Watermark_Interspeech2026.pdf" target="_blank">[pdf]</a><a href="https://github.com/Silence-ai423/phoneme-aware-mamba-watermark" target="_blank">[code]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">ICASSP 2026</span>
