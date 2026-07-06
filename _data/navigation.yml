@@ -2,21 +2,31 @@
 
 main:
   - title: "News"
-    url: "/#news"
+    title_zh: "动态"
+    url: "#news"
 
   - title: "Experience"
-    url: "/#experience"
+    title_zh: "经历"
+    url: "#experience"
 
   - title: "Pub"
-    url: "/#publications"
+    title_zh: "论文"
+    url: "#publications"
+
+  - title: "Skills"
+    title_zh: "技能"
+    url: "#skills"
 
   - title: "Competitions"
-    url: "/#competitions"
+    title_zh: "竞赛"
+    url: "#competitions"
 
   - title: "Honors"
-    url: "/#honors"
+    title_zh: "荣誉"
+    url: "#honors"
 
   - title: "CV-En"
+    title_zh: "简历"
     url: "/files/CV_ZHANG_Mengke.pdf"
 
   # - title: "CV-Cn"

@@ -56,7 +56,7 @@ Experience
           <strong>Xiaomi</strong><br>
           <em>2026.03 - 2026.07</em> · Beijing, China<br>
           Autonomous Driving Algorithm Intern — Leader: <em>Dr. Naiyan Wang</em><br>
-          <span style="color:#888;">3D perception (occupancy) and trajectory prediction for autonomous driving.</span>
+          <span style="color:#888;">3D perception (occupancy) and trajectory prediction for autonomous driving. <a href="files/xiaomi_internship_certificate.pdf" target="_blank">[certificate]</a></span>
       </div>
   </div>
 
@@ -223,6 +223,33 @@ Publications
 
 <script src="assets/js/show_publications.js"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
+
+
+Skills
+--------
+
+<div class="skills-grid">
+  <div class="skill-card">
+    <div class="skill-icon"><i class="fas fa-code"></i></div>
+    <span class="skill-name">Programming Languages</span>
+    <span class="skill-items">Python · C/C++<br>Java · MATLAB</span>
+  </div>
+  <div class="skill-card">
+    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+    <span class="skill-name">AI / Deep Learning</span>
+    <span class="skill-items">PyTorch · TensorFlow<br>Transformer · State Space Models (Mamba) · Diffusion Models</span>
+  </div>
+  <div class="skill-card">
+    <div class="skill-icon"><i class="fas fa-image"></i></div>
+    <span class="skill-name">CV & Data Processing</span>
+    <span class="skill-items">OpenCV · PIL/Pillow · scikit-image<br>NumPy · Pandas · SciPy · scikit-learn</span>
+  </div>
+  <div class="skill-card">
+    <div class="skill-icon"><i class="fas fa-screwdriver-wrench"></i></div>
+    <span class="skill-name">Tools & Others</span>
+    <span class="skill-items">LaTeX · Git<br>DaVinci Resolve (editing & grading)<br>English: CET-4 / CET-6</span>
+  </div>
+</div>
 
 
 Competitions
