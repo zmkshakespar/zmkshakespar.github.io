@@ -134,7 +134,6 @@ Publications
       We model open-world depth estimation as consistent geometric inference across multi-style images, leveraging structure-preserving Image-to-Image editing priors. OpenDepth introduces "Intra-Domain Awareness" via shallow DiT feature alignment and a joint RGB latent reconstruction task, setting new zero-shot SOTA records on standard and extreme-weather benchmarks with only 79K training samples.
       <br>
       <b><i style="color:#83a1c7;">ACM MM 2026 (CCF-A) · Under Review &nbsp;</i></b>
-      <a href="files/OpenDepth_ACMMM2026.pdf" target="_blank"><em>[pdf]</em></a>
     </div>
   </div>
 </div>
@@ -215,7 +214,6 @@ Publications
       <span class="pub-list-title">OpenDepth: Repurposing Image Editing Priors for Robust Open-World Monocular Depth Estimation</span><br>
       <span class="pub-list-authors"><strong>Mengke Zhang</strong>, et al.</span>
       <span class="pub-list-note">CCF-A · Under Review.</span>
-      <span class="pub-list-links"><a href="files/OpenDepth_ACMMM2026.pdf" target="_blank">[pdf]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">Interspeech 2026</span>
@@ -290,6 +288,11 @@ Honors
 --------
 
 <div class="honor-grid">
+
+  <a class="honor-card" href="images/honors/mic_best_poster.jpg" target="_blank">
+    <img src="images/honors/mic_best_poster.jpg" alt="Best Poster Award certificate">
+    <span class="honor-title">Best Poster Award, 2025 IET Model International Conference</span>
+  </a>
 
   <a class="honor-card" href="files/scholarship_second_24-25.pdf" target="_blank">
     <img src="images/honors/scholarship_second_24-25.jpg" alt="Second-Class Scholarship certificate">

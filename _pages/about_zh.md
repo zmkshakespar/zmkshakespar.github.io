@@ -131,7 +131,6 @@ stylesheets:
       我们将开放世界深度估计建模为跨风格图像的一致几何推理，利用图像编辑（I2I）先验的结构保持能力。OpenDepth 通过 DiT 浅层特征对齐与 RGB 隐空间重建任务引入"域内感知"机制，仅用 7.9 万训练样本即在常规与极端天气基准上刷新零样本 SOTA 纪录。
       <br>
       <b><i style="color:#83a1c7;">ACM MM 2026（CCF-A）· 在审 &nbsp;</i></b>
-      <a href="/files/OpenDepth_ACMMM2026.pdf" target="_blank"><em>[pdf]</em></a>
     </div>
   </div>
 </div>
@@ -212,7 +211,6 @@ stylesheets:
       <span class="pub-list-title">OpenDepth: Repurposing Image Editing Priors for Robust Open-World Monocular Depth Estimation</span><br>
       <span class="pub-list-authors"><strong>Mengke Zhang</strong>, et al.</span>
       <span class="pub-list-note">CCF-A · 在审。</span>
-      <span class="pub-list-links"><a href="/files/OpenDepth_ACMMM2026.pdf" target="_blank">[pdf]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">Interspeech 2026</span>
@@ -285,6 +283,11 @@ stylesheets:
 ## 荣誉 {#honors}
 
 <div class="honor-grid">
+
+  <a class="honor-card" href="/images/honors/mic_best_poster.jpg" target="_blank">
+    <img src="/images/honors/mic_best_poster.jpg" alt="最佳海报奖证书">
+    <span class="honor-title">最佳海报奖，2025 IET Model 国际会议</span>
+  </a>
 
   <a class="honor-card" href="/files/scholarship_second_24-25.pdf" target="_blank">
     <img src="/images/honors/scholarship_second_24-25.jpg" alt="校级二等奖学金证书">
