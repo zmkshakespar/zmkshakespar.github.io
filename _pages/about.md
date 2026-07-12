@@ -22,7 +22,7 @@ News
 
 <li><span class="news-date"><em>2026.06</em></span> 🎉 Joined the <a href="https://meweb.hku.hk/zljiang/">MIRoC Lab</a> at HKU as a research intern, working on 3D reconstruction from ultrasound images.</li>
 
-<li><span class="news-date"><em>2026.04</em></span> 📄 Two papers submitted to <b>ACM MM 2026</b> (CCF-A) and are currently under double-blind review.</li>
+<li><span class="news-date"><em>2026.04</em></span> 📄 <b>OpenDepth</b> submitted to <b>ACM MM 2026</b> (CCF-A); another first-author paper is under double-blind review at <b>AAAI</b> (CCF-A).</li>
 
 <li><span class="news-date"><em>2026.03</em></span> 🎉 Two papers (<b>ACR-Net</b> & <b>Phoneme-Aware Mamba Watermark</b>) accepted to <b>Interspeech 2026</b>.</li>
 
@@ -124,6 +124,24 @@ Publications
 <div class="publication-card" data-category="all">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/pub_opendepth.png" alt="OpenDepth" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>OpenDepth: Repurposing Image Editing Priors for Robust Open-World Monocular Depth Estimation</strong><br>
+      <i style="font-size: 13px;">
+        <strong>Mengke Zhang</strong>, et al.
+      </i><br>
+      We model open-world depth estimation as consistent geometric inference across multi-style images, leveraging structure-preserving Image-to-Image editing priors. OpenDepth introduces "Intra-Domain Awareness" via shallow DiT feature alignment and a joint RGB latent reconstruction task, setting new zero-shot SOTA records on standard and extreme-weather benchmarks with only 79K training samples.
+      <br>
+      <b><i style="color:#83a1c7;">ACM MM 2026 (CCF-A) · Under Review &nbsp;</i></b>
+      <a href="files/OpenDepth_ACMMM2026.pdf" target="_blank"><em>[pdf]</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" data-category="all">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/pub_acrnet.png" alt="ACR-Net" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div>
@@ -179,11 +197,11 @@ Publications
 
 <div class="publication-card" data-category="all">
   <div>
-    <strong>Two papers under double-blind review at ACM MM 2026</strong><br>
+    <strong>One paper under double-blind review at AAAI</strong><br>
     <i style="font-size: 13px;">Authors withheld</i><br>
-    Two first-author papers are currently under double-blind review at ACM MM 2026 (CCF-A). Titles, authors, and details are withheld to comply with the anonymity policy, and will be updated upon acceptance.
+    A first-author paper is currently under double-blind review at AAAI (CCF-A). Title, authors, and details are withheld to comply with the anonymity policy, and will be updated upon acceptance.
     <br>
-    <b><i style="color:#83a1c7;">ACM MM 2026 (CCF-A) · Under Review &nbsp;</i></b>
+    <b><i style="color:#83a1c7;">AAAI (CCF-A) · Under Review &nbsp;</i></b>
   </div>
 </div>
 
@@ -192,6 +210,13 @@ Publications
 
 <div id="full-publications" class="publication-view" data-publication-view="list" hidden>
   <ul class="full-publication-list">
+    <li>
+      <span class="pub-list-badge">ACM MM 2026</span>
+      <span class="pub-list-title">OpenDepth: Repurposing Image Editing Priors for Robust Open-World Monocular Depth Estimation</span><br>
+      <span class="pub-list-authors"><strong>Mengke Zhang</strong>, et al.</span>
+      <span class="pub-list-note">CCF-A · Under Review.</span>
+      <span class="pub-list-links"><a href="files/OpenDepth_ACMMM2026.pdf" target="_blank">[pdf]</a></span>
+    </li>
     <li>
       <span class="pub-list-badge">Interspeech 2026</span>
       <span class="pub-list-title">ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling</span><br>
@@ -214,8 +239,8 @@ Publications
       <span class="pub-list-links"><a href="files/DualMoE_Unified-Image-Deraining_ICASSP2026.pdf" target="_blank">[pdf]</a></span>
     </li>
     <li>
-      <span class="pub-list-badge">ACM MM 2026</span>
-      <span class="pub-list-title">Two papers under double-blind review (details withheld for anonymity)</span><br>
+      <span class="pub-list-badge">AAAI</span>
+      <span class="pub-list-title">One paper under double-blind review (details withheld for anonymity)</span><br>
       <span class="pub-list-authors">Authors withheld</span>
       <span class="pub-list-note">CCF-A · Under Review.</span>
     </li>

@@ -20,7 +20,7 @@ stylesheets:
 
 <li><span class="news-date"><em>2026.06</em></span> 🎉 加入香港大学 <a href="https://meweb.hku.hk/zljiang/">MIRoC 实验室</a> 担任科研实习生，研究超声图像三维重建。</li>
 
-<li><span class="news-date"><em>2026.04</em></span> 📄 两篇论文投稿至 <b>ACM MM 2026</b>（CCF-A），目前处于双盲评审中。</li>
+<li><span class="news-date"><em>2026.04</em></span> 📄 <b>OpenDepth</b> 投稿至 <b>ACM MM 2026</b>（CCF-A）；另一篇一作论文正在 <b>AAAI</b>（CCF-A）双盲评审中。</li>
 
 <li><span class="news-date"><em>2026.03</em></span> 🎉 两篇论文（<b>ACR-Net</b> 与 <b>Phoneme-Aware Mamba Watermark</b>）被 <b>Interspeech 2026</b> 录用。</li>
 
@@ -121,6 +121,24 @@ stylesheets:
 <div class="publication-card" data-category="all">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="/images/pub_opendepth.png" alt="OpenDepth" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>OpenDepth: Repurposing Image Editing Priors for Robust Open-World Monocular Depth Estimation</strong><br>
+      <i style="font-size: 13px;">
+        <strong>Mengke Zhang</strong>, et al.
+      </i><br>
+      我们将开放世界深度估计建模为跨风格图像的一致几何推理，利用图像编辑（I2I）先验的结构保持能力。OpenDepth 通过 DiT 浅层特征对齐与 RGB 隐空间重建任务引入"域内感知"机制，仅用 7.9 万训练样本即在常规与极端天气基准上刷新零样本 SOTA 纪录。
+      <br>
+      <b><i style="color:#83a1c7;">ACM MM 2026（CCF-A）· 在审 &nbsp;</i></b>
+      <a href="/files/OpenDepth_ACMMM2026.pdf" target="_blank"><em>[pdf]</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" data-category="all">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="/images/pub_acrnet.png" alt="ACR-Net" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div>
@@ -176,11 +194,11 @@ stylesheets:
 
 <div class="publication-card" data-category="all">
   <div>
-    <strong>两篇论文正在 ACM MM 2026 双盲评审中</strong><br>
+    <strong>一篇论文正在 AAAI 双盲评审中</strong><br>
     <i style="font-size: 13px;">作者信息暂不公开</i><br>
-    两篇一作论文正在 ACM MM 2026（CCF-A）双盲评审中。为遵守匿名评审原则，标题、作者及细节暂不公开，录用后将及时更新。
+    一篇一作论文正在 AAAI（CCF-A）双盲评审中。为遵守匿名评审原则，标题、作者及细节暂不公开，录用后将及时更新。
     <br>
-    <b><i style="color:#83a1c7;">ACM MM 2026（CCF-A）· 在审 &nbsp;</i></b>
+    <b><i style="color:#83a1c7;">AAAI（CCF-A）· 在审 &nbsp;</i></b>
   </div>
 </div>
 
@@ -189,6 +207,13 @@ stylesheets:
 
 <div id="full-publications" class="publication-view" data-publication-view="list" hidden>
   <ul class="full-publication-list">
+    <li>
+      <span class="pub-list-badge">ACM MM 2026</span>
+      <span class="pub-list-title">OpenDepth: Repurposing Image Editing Priors for Robust Open-World Monocular Depth Estimation</span><br>
+      <span class="pub-list-authors"><strong>Mengke Zhang</strong>, et al.</span>
+      <span class="pub-list-note">CCF-A · 在审。</span>
+      <span class="pub-list-links"><a href="/files/OpenDepth_ACMMM2026.pdf" target="_blank">[pdf]</a></span>
+    </li>
     <li>
       <span class="pub-list-badge">Interspeech 2026</span>
       <span class="pub-list-title">ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling</span><br>
@@ -211,8 +236,8 @@ stylesheets:
       <span class="pub-list-links"><a href="/files/DualMoE_Unified-Image-Deraining_ICASSP2026.pdf" target="_blank">[pdf]</a></span>
     </li>
     <li>
-      <span class="pub-list-badge">ACM MM 2026</span>
-      <span class="pub-list-title">两篇论文双盲评审中（遵守匿名原则暂不公开）</span><br>
+      <span class="pub-list-badge">AAAI</span>
+      <span class="pub-list-title">一篇论文双盲评审中（遵守匿名原则暂不公开）</span><br>
       <span class="pub-list-authors">作者信息暂不公开</span>
       <span class="pub-list-note">CCF-A · 在审。</span>
     </li>
