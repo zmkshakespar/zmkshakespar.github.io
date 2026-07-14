@@ -20,9 +20,13 @@ News
 <div class="news-box">
   <ul class="news-list">
 
+<li><span class="news-date"><em>2026.07</em></span> 🎉 <b>OpenDepth</b> accepted to <b>ACM MM 2026</b> (CCF-A)!</li>
+
+<li><span class="news-date"><em>2026.07</em></span> 📄 Two first-author papers submitted to <b>AAAI</b> (CCF-A), currently under double-blind review.</li>
+
 <li><span class="news-date"><em>2026.06</em></span> 🎉 Joined the <a href="https://meweb.hku.hk/zljiang/">MIRoC Lab</a> at HKU as a research intern, working on 3D reconstruction from ultrasound images.</li>
 
-<li><span class="news-date"><em>2026.04</em></span> 📄 <b>OpenDepth</b> submitted to <b>ACM MM 2026</b> (CCF-A); two more first-author papers are under double-blind review at <b>AAAI</b> (CCF-A).</li>
+<li><span class="news-date"><em>2026.04</em></span> 📄 <b>OpenDepth</b> submitted to <b>ACM MM 2026</b> (CCF-A).</li>
 
 <li><span class="news-date"><em>2026.03</em></span> 🎉 Two papers (<b>ACR-Net</b> & <b>Phoneme-Aware Mamba Watermark</b>) accepted to <b>Interspeech 2026</b>.</li>
 
@@ -133,7 +137,7 @@ Publications
       </i><br>
       We model open-world depth estimation as consistent geometric inference across multi-style images, leveraging structure-preserving Image-to-Image editing priors. OpenDepth introduces "Intra-Domain Awareness" via shallow DiT feature alignment and a joint RGB latent reconstruction task, setting new zero-shot SOTA records on standard and extreme-weather benchmarks with only 79K training samples.
       <br>
-      <b><i style="color:#83a1c7;">ACM MM 2026 (CCF-A) · Under Review &nbsp;</i></b>
+      <b><i style="color:#83a1c7;">ACM MM 2026 (CCF-A) &nbsp;</i></b>
     </div>
   </div>
 </div>
@@ -213,7 +217,7 @@ Publications
       <span class="pub-list-badge">ACM MM 2026</span>
       <span class="pub-list-title">OpenDepth: Repurposing Image Editing Priors for Robust Open-World Monocular Depth Estimation</span><br>
       <span class="pub-list-authors"><strong>Mengke Zhang</strong>, et al.</span>
-      <span class="pub-list-note">CCF-A · Under Review.</span>
+      <span class="pub-list-note">CCF-A.</span>
     </li>
     <li>
       <span class="pub-list-badge">Interspeech 2026</span>

@@ -18,9 +18,13 @@ stylesheets:
 <div class="news-box">
   <ul class="news-list">
 
+<li><span class="news-date"><em>2026.07</em></span> 🎉 <b>OpenDepth</b> 被 <b>ACM MM 2026</b>（CCF-A）录用！</li>
+
+<li><span class="news-date"><em>2026.07</em></span> 📄 两篇一作论文投稿至 <b>AAAI</b>（CCF-A），目前处于双盲评审中。</li>
+
 <li><span class="news-date"><em>2026.06</em></span> 🎉 加入香港大学 <a href="https://meweb.hku.hk/zljiang/">MIRoC 实验室</a> 担任科研实习生，研究超声图像三维重建。</li>
 
-<li><span class="news-date"><em>2026.04</em></span> 📄 <b>OpenDepth</b> 投稿至 <b>ACM MM 2026</b>（CCF-A）；另有两篇一作论文正在 <b>AAAI</b>（CCF-A）双盲评审中。</li>
+<li><span class="news-date"><em>2026.04</em></span> 📄 <b>OpenDepth</b> 投稿至 <b>ACM MM 2026</b>（CCF-A）。</li>
 
 <li><span class="news-date"><em>2026.03</em></span> 🎉 两篇论文（<b>ACR-Net</b> 与 <b>Phoneme-Aware Mamba Watermark</b>）被 <b>Interspeech 2026</b> 录用。</li>
 
@@ -130,7 +134,7 @@ stylesheets:
       </i><br>
       我们将开放世界深度估计建模为跨风格图像的一致几何推理，利用图像编辑（I2I）先验的结构保持能力。OpenDepth 通过 DiT 浅层特征对齐与 RGB 隐空间重建任务引入"域内感知"机制，仅用 7.9 万训练样本即在常规与极端天气基准上刷新零样本 SOTA 纪录。
       <br>
-      <b><i style="color:#83a1c7;">ACM MM 2026（CCF-A）· 在审 &nbsp;</i></b>
+      <b><i style="color:#83a1c7;">ACM MM 2026（CCF-A）&nbsp;</i></b>
     </div>
   </div>
 </div>
@@ -210,7 +214,7 @@ stylesheets:
       <span class="pub-list-badge">ACM MM 2026</span>
       <span class="pub-list-title">OpenDepth: Repurposing Image Editing Priors for Robust Open-World Monocular Depth Estimation</span><br>
       <span class="pub-list-authors"><strong>Mengke Zhang</strong>, et al.</span>
-      <span class="pub-list-note">CCF-A · 在审。</span>
+      <span class="pub-list-note">CCF-A。</span>
     </li>
     <li>
       <span class="pub-list-badge">Interspeech 2026</span>
