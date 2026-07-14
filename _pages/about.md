@@ -22,7 +22,7 @@ News
 
 <li><span class="news-date"><em>2026.06</em></span> 🎉 Joined the <a href="https://meweb.hku.hk/zljiang/">MIRoC Lab</a> at HKU as a research intern, working on 3D reconstruction from ultrasound images.</li>
 
-<li><span class="news-date"><em>2026.04</em></span> 📄 <b>OpenDepth</b> submitted to <b>ACM MM 2026</b> (CCF-A); another first-author paper is under double-blind review at <b>AAAI</b> (CCF-A).</li>
+<li><span class="news-date"><em>2026.04</em></span> 📄 <b>OpenDepth</b> submitted to <b>ACM MM 2026</b> (CCF-A); two more first-author papers are under double-blind review at <b>AAAI</b> (CCF-A).</li>
 
 <li><span class="news-date"><em>2026.03</em></span> 🎉 Two papers (<b>ACR-Net</b> & <b>Phoneme-Aware Mamba Watermark</b>) accepted to <b>Interspeech 2026</b>.</li>
 
@@ -196,9 +196,9 @@ Publications
 
 <div class="publication-card" data-category="all">
   <div>
-    <strong>One paper under double-blind review at AAAI</strong><br>
+    <strong>Two papers under double-blind review at AAAI</strong><br>
     <i style="font-size: 13px;">Authors withheld</i><br>
-    A first-author paper is currently under double-blind review at AAAI (CCF-A). Title, authors, and details are withheld to comply with the anonymity policy, and will be updated upon acceptance.
+    Two first-author papers are currently under double-blind review at AAAI (CCF-A) — one on semantic segmentation and one on geometric foundation models. Titles, authors, and details are withheld to comply with the anonymity policy, and will be updated upon acceptance.
     <br>
     <b><i style="color:#83a1c7;">AAAI (CCF-A) · Under Review &nbsp;</i></b>
   </div>
@@ -238,7 +238,7 @@ Publications
     </li>
     <li>
       <span class="pub-list-badge">AAAI</span>
-      <span class="pub-list-title">One paper under double-blind review (details withheld for anonymity)</span><br>
+      <span class="pub-list-title">Two papers under double-blind review — semantic segmentation & geometric foundation models (details withheld for anonymity)</span><br>
       <span class="pub-list-authors">Authors withheld</span>
       <span class="pub-list-note">CCF-A · Under Review.</span>
     </li>

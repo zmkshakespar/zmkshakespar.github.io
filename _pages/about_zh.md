@@ -20,7 +20,7 @@ stylesheets:
 
 <li><span class="news-date"><em>2026.06</em></span> 🎉 加入香港大学 <a href="https://meweb.hku.hk/zljiang/">MIRoC 实验室</a> 担任科研实习生，研究超声图像三维重建。</li>
 
-<li><span class="news-date"><em>2026.04</em></span> 📄 <b>OpenDepth</b> 投稿至 <b>ACM MM 2026</b>（CCF-A）；另一篇一作论文正在 <b>AAAI</b>（CCF-A）双盲评审中。</li>
+<li><span class="news-date"><em>2026.04</em></span> 📄 <b>OpenDepth</b> 投稿至 <b>ACM MM 2026</b>（CCF-A）；另有两篇一作论文正在 <b>AAAI</b>（CCF-A）双盲评审中。</li>
 
 <li><span class="news-date"><em>2026.03</em></span> 🎉 两篇论文（<b>ACR-Net</b> 与 <b>Phoneme-Aware Mamba Watermark</b>）被 <b>Interspeech 2026</b> 录用。</li>
 
@@ -193,9 +193,9 @@ stylesheets:
 
 <div class="publication-card" data-category="all">
   <div>
-    <strong>一篇论文正在 AAAI 双盲评审中</strong><br>
+    <strong>两篇论文正在 AAAI 双盲评审中</strong><br>
     <i style="font-size: 13px;">作者信息暂不公开</i><br>
-    一篇一作论文正在 AAAI（CCF-A）双盲评审中。为遵守匿名评审原则，标题、作者及细节暂不公开，录用后将及时更新。
+    两篇一作论文正在 AAAI（CCF-A）双盲评审中——一篇关于语义分割，一篇关于几何基础模型。为遵守匿名评审原则，标题、作者及细节暂不公开，录用后将及时更新。
     <br>
     <b><i style="color:#83a1c7;">AAAI（CCF-A）· 在审 &nbsp;</i></b>
   </div>
@@ -235,7 +235,7 @@ stylesheets:
     </li>
     <li>
       <span class="pub-list-badge">AAAI</span>
-      <span class="pub-list-title">一篇论文双盲评审中（遵守匿名原则暂不公开）</span><br>
+      <span class="pub-list-title">两篇论文双盲评审中——语义分割与几何基础模型（遵守匿名原则暂不公开）</span><br>
       <span class="pub-list-authors">作者信息暂不公开</span>
       <span class="pub-list-note">CCF-A · 在审。</span>
     </li>
