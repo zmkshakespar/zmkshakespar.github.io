@@ -1,0 +1,420 @@
+# Shared content for the English and Chinese academic homepage.
+# Add publications and updates here; both languages use the same layout.
+ui:
+  en:
+    name: Mengke Zhang
+    other_name: 张孟珂
+    page_title: Academic Homepage
+    description: Mengke Zhang, an undergraduate researcher at BUPT working on multimodal learning, computer vision,
+      generative models, and speech understanding.
+    skip: Skip to content
+    navigation: Main navigation
+    about: About
+    research: Research
+    experience: Experience
+    honors: Honors
+    language: Language
+    eyebrow: Undergraduate researcher · BUPT
+    statement: Exploring how machines see, hear, and understand.
+    biography: <p>I am an undergraduate in Internet of Things Engineering at <a href="https://www.bupt.edu.cn/">Beijing
+      University of Posts and Telecommunications</a>. I am currently a research intern at the <a href="https://meweb.hku.hk/zljiang/">MIRoC
+      Lab</a>, The University of Hong Kong.</p><p>My work spans multimodal learning, computer vision, and generative
+      models — from robust depth estimation and image restoration to speech understanding and security.</p>
+    email: Say hello
+    cv: Curriculum vitae
+    profile_caption: Beijing, China
+    interests: Research interests
+    topics:
+    - Multimodal learning
+    - 3D vision
+    - Generative models
+    - Speech & audio
+    news: Latest news
+    news_aside: Updates from the lab & beyond
+    earlier_news: Earlier updates
+    publications: Selected publications
+    equal: '* Equal contribution'
+    filter_label: Filter publications by research area
+    all: All work
+    vision: Vision
+    audio: Audio
+    list_view: List view
+    detail_view: Detail view
+    result_label: publications shown
+    ongoing: In progress
+    review_note: Two first-author papers on semantic segmentation and geometric foundation models are under double-blind
+      review at AAAI (CCF-A). Details are withheld during review.
+    experience_aside: Research, industry & education
+    skills: Tools of the trade
+    honors_aside: Competitions & recognition
+    certificate: Certificate
+    more_honors: Scholarships & other honors
+    contact_eyebrow: Let’s connect
+    contact_title: Good research starts with a conversation.
+    contact_description: Open to research collaborations and new opportunities.
+    updated: Last updated
+    update_date: October 2026
+    back_top: Back to top
+  zh:
+    name: 张孟珂
+    other_name: Mengke Zhang
+    page_title: 学术主页
+    description: 张孟珂，北京邮电大学本科生，研究方向为多模态学习、计算机视觉、生成模型与语音理解。
+    skip: 跳转至正文
+    navigation: 主导航
+    about: 关于
+    research: 研究
+    experience: 经历
+    honors: 荣誉
+    language: 语言
+    eyebrow: 本科生 · 北京邮电大学
+    statement: 探索机器如何看见、聆听与理解世界。
+    biography: <p>我是<a href="https://www.bupt.edu.cn/">北京邮电大学</a>物联网工程专业本科生，目前在香港大学 <a href="https://meweb.hku.hk/zljiang/">Medical
+      Intelligence and Robotic Cognition (MIRoC) Lab</a> 担任科研实习生。</p><p>我的研究围绕多模态学习、计算机视觉与生成模型展开，涵盖鲁棒深度估计、图像复原、语音理解与安全等方向。</p>
+    email: 联系我
+    cv: 个人简历
+    profile_caption: 中国 · 北京
+    interests: 研究兴趣
+    topics:
+    - 多模态学习
+    - 三维视觉
+    - 生成模型
+    - 语音与音频
+    news: 近期动态
+    news_aside: 研究与成长的记录
+    earlier_news: 更早的动态
+    publications: 代表性论文
+    equal: '* 共同一作'
+    filter_label: 按研究方向筛选论文
+    all: 全部
+    vision: 视觉
+    audio: 音频
+    list_view: 列表视图
+    detail_view: 详细视图
+    result_label: 篇论文
+    ongoing: 进行中
+    review_note: 两篇关于语义分割与几何基础模型的一作论文正在 AAAI（CCF-A）双盲评审中，相关细节在评审期间暂不公开。
+    experience_aside: 科研、实习与教育
+    skills: 技能与工具
+    honors_aside: 竞赛与奖励
+    certificate: 证书
+    more_honors: 奖学金与其他荣誉
+    contact_eyebrow: 保持联系
+    contact_title: 让一次交流，成为研究的起点。
+    contact_description: 欢迎联系我，探讨科研合作与新的机会。
+    updated: 最近更新
+    update_date: 2026 年 10 月
+    back_top: 回到顶部
+news:
+- date: '2026.10'
+  en: <strong>OpenDepth</strong> and <strong>ACR-Net</strong> are now on arXiv. <a href="https://arxiv.org/abs/2610.17610"
+    target="_blank" rel="noopener noreferrer">OpenDepth ↗</a> · <a href="https://arxiv.org/abs/2610.20114" target="_blank"
+    rel="noopener noreferrer">ACR-Net ↗</a>
+  zh: <strong>OpenDepth</strong> 与 <strong>ACR-Net</strong> 已上线 arXiv。<a href="https://arxiv.org/abs/2610.17610"
+    target="_blank" rel="noopener noreferrer">OpenDepth ↗</a> · <a href="https://arxiv.org/abs/2610.20114" target="_blank"
+    rel="noopener noreferrer">ACR-Net ↗</a>
+- date: '2026.07'
+  en: <b>OpenDepth</b> accepted to <b>ACM MM 2026</b> (CCF-A)!
+  zh: <b>OpenDepth</b> 被 <b>ACM MM 2026</b>（CCF-A）录用！
+- date: '2026.07'
+  en: Two first-author papers submitted to <b>AAAI</b> (CCF-A), currently under double-blind review.
+  zh: 两篇一作论文投稿至 <b>AAAI</b>（CCF-A），目前处于双盲评审中。
+- date: '2026.06'
+  en: Joined the <a href="https://meweb.hku.hk/zljiang/">MIRoC Lab</a> at HKU as a research intern, working on 3D
+    reconstruction from ultrasound images.
+  zh: 加入香港大学 <a href="https://meweb.hku.hk/zljiang/">MIRoC 实验室</a> 担任科研实习生，研究超声图像三维重建。
+- date: '2026.04'
+  en: <b>OpenDepth</b> submitted to <b>ACM MM 2026</b> (CCF-A).
+  zh: <b>OpenDepth</b> 投稿至 <b>ACM MM 2026</b>（CCF-A）。
+- date: '2026.03'
+  en: Two papers (<b>ACR-Net</b> &amp; <b>Phoneme-Aware Mamba Watermark</b>) accepted to <b>Interspeech 2026</b>.
+  zh: 两篇论文（<b>ACR-Net</b> 与 <b>Phoneme-Aware Mamba Watermark</b>）被 <b>Interspeech 2026</b> 录用。
+- date: '2026.03'
+  en: Started as an Autonomous Driving Algorithm Intern at <b>Xiaomi</b>.
+  zh: 入职<b>小米</b>，担任自动驾驶算法实习生。
+- date: '2026.02'
+  en: Joined the <a href="https://www.vrobotit.cn/">VRobotIT Lab</a> at BUPT as a research intern.
+  zh: 加入北邮 <a href="https://www.vrobotit.cn/">VRobotIT 实验室</a> 担任科研实习生。
+- date: '2025.09'
+  en: Our unified image deraining paper (<b>DualMoE</b>) accepted to <b>ICASSP 2026</b>.
+  zh: 统一图像去雨论文（<b>DualMoE</b>）被 <b>ICASSP 2026</b> 录用。
+publications:
+- id: opendepth
+  category: vision
+  category_label:
+    en: Depth estimation
+    zh: 深度估计
+  venue: ACM Multimedia 2026 · CCF-A
+  title: 'OpenDepth: Repurposing Image Editing Priors for Robust Open-World Monocular Depth Estimation'
+  authors: <strong>Mengke Zhang</strong>, Tianyi Yang, Xinzhuo Li, Anlong Ming
+  primary_url: https://arxiv.org/abs/2610.17610
+  image: /images/pub_opendepth.png
+  alt:
+    en: OpenDepth framework for robust monocular depth estimation
+    zh: OpenDepth 鲁棒单目深度估计框架
+  summary:
+    en: Structure-preserving image editing priors for open-world depth estimation. Shallow feature alignment and
+      RGB latent reconstruction disentangle geometry from environmental appearance changes.
+    zh: 利用图像编辑先验的结构保持能力，通过浅层特征对齐与 RGB 隐空间重建解耦几何与环境外观变化，实现开放世界中的鲁棒单目深度估计。
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2610.17610
+  - label: Code
+    url: https://github.com/zmkshakespar/OpenDepth
+  - label: Project
+    url: https://zmkshakespar.github.io/OpenDepth/
+  - label: PDF
+    url: https://arxiv.org/pdf/2610.17610
+- id: acr-net
+  category: audio
+  category_label:
+    en: Audio & multimodal learning
+    zh: 音频与多模态学习
+  venue: Interspeech 2026 · CCF-B / CORE-A
+  title: 'ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling'
+  authors: <strong>Mengke Zhang*</strong>, Yanda Shao*, Tianhe Wu*, Kai Feng
+  primary_url: https://arxiv.org/abs/2610.20114
+  image: /images/pub_acrnet.png
+  alt:
+    en: ACR-Net acoustic-semantic contrastive decoupling architecture
+    zh: ACR-Net 声学与语义对比解耦架构
+  summary:
+    en: Resolving conflicts between what is said and how it sounds. ACR-Net decouples acoustic and semantic representations,
+      alongside the ASPIRE adversarial benchmark and SOP/LDD metrics.
+    zh: 针对语音情感识别与音频大模型中的语义主导问题，解耦相互冲突的声学与语义表征，并提出 ASPIRE 对抗基准及 SOP/LDD 评价指标。
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2610.20114
+  - label: Code
+    url: https://github.com/zmkshakespar/ACR-Net
+    note:
+      en: Official repository; implementation release pending.
+      zh: 官方代码仓库；实现待发布。
+  - label: PDF
+    url: /files/ACR-Net_Interspeech2026.pdf
+- id: mamba-watermark
+  category: audio
+  category_label:
+    en: Speech security
+    zh: 语音安全
+  venue: Interspeech 2026 · CCF-B / CORE-A
+  title: 'Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes'
+  authors: Yanda Shao*, <strong>Mengke Zhang*</strong>, Zhixin Lin*, Tianyi Yang
+  primary_url: /files/Phoneme-Aware-Mamba-Watermark_Interspeech2026.pdf
+  image: /images/pub_mamba_watermark.png
+  alt:
+    en: Phoneme-aware Mamba watermark embedding and detection framework
+    zh: 音素感知 Mamba 语音水印嵌入与检测框架
+  summary:
+    en: A phoneme-guided speech watermark built on bidirectional Mamba. Coupling watermarks with speech semantics
+      enables low-latency source tracing against diffusion-based purification attacks.
+    zh: 基于双向 Mamba 的音素感知主动水印，将水印与语音语义耦合，抵抗扩散净化攻击，实现低延迟的语音溯源。
+  links:
+  - label: PDF
+    url: /files/Phoneme-Aware-Mamba-Watermark_Interspeech2026.pdf
+  - label: Code
+    url: https://github.com/Silence-ai423/phoneme-aware-mamba-watermark
+- id: dualmoe
+  category: vision
+  category_label:
+    en: Image restoration
+    zh: 图像复原
+  venue: ICASSP 2026 · CCF-B / CORE-A
+  title: Learning Dual Mixture-of-Experts Models for Unified Image Deraining
+  authors: Tianyi Yang*, <strong>Mengke Zhang*</strong>, Tianshuo Chen
+  primary_url: /files/DualMoE_Unified-Image-Deraining_ICASSP2026.pdf
+  image: /images/pub_dualmoe.png
+  alt:
+    en: DualMoE unified image deraining model and Hybrid-Rain10K benchmark
+    zh: DualMoE 统一图像去雨模型与 Hybrid-Rain10K 基准
+  summary:
+    en: A dual Mixture-of-Experts model for rain streaks, raindrops, and rain accumulation. Soft-MoE degradation
+      modeling and high-frequency-guided Hard-MoE routing unify image deraining on Hybrid-Rain10K.
+    zh: 面向雨线、雨滴与雨幕的统一图像去雨：结合 Soft-MoE 退化建模与高频引导的 Hard-MoE 路由，并构建 Hybrid-Rain10K 基准。
+  links:
+  - label: PDF
+    url: /files/DualMoE_Unified-Image-Deraining_ICASSP2026.pdf
+experience:
+- logo: /images/hku.png
+  name:
+    en: The University of Hong Kong (HKU)
+    zh: 香港大学（HKU）
+  date:
+    en: 2026.06 — Present
+    zh: 2026.06 — 至今
+  role:
+    en: 'Research Intern at the <a href="https://meweb.hku.hk/zljiang/"><em>Medical Intelligence and Robotic Cognition
+      (MIRoC) Lab</em></a> — Advisor: <a href="https://scholar.google.com/citations?user=X41OzcYAAAAJ"><em>Dr. Zhongliang
+      Jiang</em></a>'
+    zh: <a href="https://meweb.hku.hk/zljiang/"><em>Medical Intelligence and Robotic Cognition (MIRoC) Lab</em></a>
+      科研实习生 — 指导老师：<a href="https://scholar.google.com/citations?user=X41OzcYAAAAJ"><em>蒋中亮博士</em></a>
+  description:
+    en: Working on 3D reconstruction from ultrasound images for medical imaging.
+    zh: 研究面向医学影像的超声图像三维重建。
+- logo: /images/xiaomi.webp
+  name:
+    en: Xiaomi
+    zh: 小米
+  date:
+    en: 2026.03 — 2026.07
+    zh: 2026.03 — 2026.07
+  role:
+    en: 'Autonomous Driving Algorithm Intern — Leader: <a href="https://scholar.google.com/citations?user=yAWtq6QAAAAJ"><em>Dr.
+      Naiyan Wang</em></a>'
+    zh: 自动驾驶算法实习生 — 负责人：<a href="https://scholar.google.com/citations?user=yAWtq6QAAAAJ"><em>王乃岩博士</em></a>
+  description:
+    en: 3D perception (occupancy) and trajectory prediction for autonomous driving. <a href="/files/xiaomi_internship_certificate.pdf"
+      rel="noopener noreferrer" target="_blank">[certificate]</a>
+    zh: 自动驾驶三维感知（Occupancy）与轨迹预测。 <a href="/files/xiaomi_internship_certificate.pdf" rel="noopener noreferrer" target="_blank">[实习证明]</a>
+- logo: /images/bupt.jpg
+  name:
+    en: VRobotIT Lab, BUPT
+    zh: 北京邮电大学 VRobotIT 实验室
+  date:
+    en: 2026.02 — Present
+    zh: 2026.02 — 至今
+  role:
+    en: 'Research Intern at the <a href="https://www.vrobotit.cn/"><em>VRobotIT Lab</em></a> — Advisor: <a href="https://scholar.google.com/citations?user=y5kFLCwAAAAJ"><em>Prof.
+      Anlong Ming</em></a>'
+    zh: <a href="https://www.vrobotit.cn/"><em>VRobotIT 实验室</em></a> 科研实习生 — 指导老师：<a href="https://scholar.google.com/citations?user=y5kFLCwAAAAJ"><em>明安龙教授</em></a>
+  description:
+    en: Researching novel depth estimation models and 3D vision; work resulting in a first-author publication.
+    zh: 研究新型深度估计模型与三维视觉，成果产出一篇一作论文。
+- logo: /images/unicom.webp
+  name:
+    en: China Unicom
+    zh: 中国联通
+  date:
+    en: 2025.06 — 2025.08
+    zh: 2025.06 — 2025.08
+  role:
+    en: Image Algorithm Intern
+    zh: 图像算法实习生
+  description:
+    en: Developed and optimized image-processing algorithms for production workflows.
+    zh: 面向生产流程开发与优化图像处理算法。
+- logo: /images/bupt.jpg
+  name:
+    en: STAIR Lab, BUPT
+    zh: 北京邮电大学 STAIR 实验室
+  date:
+    en: 2025.03 — 2025.06
+    zh: 2025.03 — 2025.06
+  role:
+    en: 'Research Intern — Advisor: <a href="https://scholar.google.com/citations?user=6sRtx0cAAAAJ"><em>Prof. Xi
+      Zhang</em></a>'
+    zh: 科研实习生 — 指导老师：<a href="https://scholar.google.com/citations?user=6sRtx0cAAAAJ"><em>张熙教授</em></a>
+  description:
+    en: Local deployment of DeepSeek-671B, batch inference, and safety guardrails.
+    zh: DeepSeek-671B 本地化部署、批量推理与安全护栏。
+- logo: /images/cambridge.webp
+  name:
+    en: University of Cambridge — AI Summer School
+    zh: 剑桥大学 — 人工智能暑期学校
+  date:
+    en: '2024.07'
+    zh: '2024.07'
+  role:
+    en: Summer Research Program on Artificial Intelligence
+    zh: 人工智能暑期科研项目
+  description:
+    en: Studied foundational theories of computer vision. <a href="/files/cambridge_ai_summer_school.pdf" rel="noopener
+      noreferrer" target="_blank">[certificate]</a>
+    zh: 研究计算机视觉基础理论。 <a href="/files/cambridge_ai_summer_school.pdf" rel="noopener noreferrer" target="_blank">[证书]</a>
+- logo: /images/bupt.jpg
+  name:
+    en: Beijing University of Posts and Telecommunications
+    zh: 北京邮电大学
+  date:
+    en: 2023.09 — Present
+    zh: 2023.09 — 至今
+  role:
+    en: B.E. in Internet of Things Engineering · GPA 3.62/4.0 (89.5/100)
+    zh: 物联网工程 本科 · GPA 3.62/4.0（89.5/100）
+  description:
+    en: 'Research interests: multimodal learning, computer vision, and generative models.'
+    zh: 研究兴趣：多模态学习、计算机视觉与生成模型。
+skills:
+- name:
+    en: Programming
+    zh: 编程语言
+  value: Python · C/C++ · Java · MATLAB
+- name:
+    en: Deep learning
+    zh: 深度学习
+  value: PyTorch · TensorFlow · Transformers · Mamba · Diffusion models
+- name:
+    en: Vision & data
+    zh: 视觉与数据处理
+  value: OpenCV · Pillow · scikit-image · NumPy · Pandas · SciPy · scikit-learn
+- name:
+    en: Tools & languages
+    zh: 工具与语言
+  value: LaTeX · Git · DaVinci Resolve · English (CET-4 / CET-6)
+awards:
+- year: 2025–2026
+  name:
+    en: “Challenge Cup” National College Student Innovation & Entrepreneurship Competition
+    zh: “挑战杯”全国大学生创新创业竞赛
+  prize:
+    en: Second Prize
+    zh: 二等奖
+- year: '2025'
+  name:
+    en: Mathematical Contest in Modeling (MCM/ICM)
+    zh: 美国大学生数学建模竞赛（MCM/ICM）
+  prize:
+    en: Honorable Mention
+    zh: Honorable Mention
+  url: /files/mcm_honorable_mention.pdf
+- year: '2025'
+  name:
+    en: ICCIP Information Innovation Competition
+    zh: ICCIP 信息创新竞赛
+  prize:
+    en: Third Prize
+    zh: 三等奖
+- year: '2025'
+  name:
+    en: Asia-Pacific Mathematical Modeling Competition (APMCM)
+    zh: 亚太地区大学生数学建模竞赛（APMCM）
+  prize:
+    en: Third Prize
+    zh: 三等奖
+  url: /files/apmcm_third_prize.pdf
+honors:
+- url: /images/honors/mic_best_poster.jpg
+  image: /images/honors/mic_best_poster.jpg
+  name:
+    en: Best Poster Award, 2025 IET Model International Conference
+    zh: 最佳海报奖，2025 IET Model 国际会议
+- url: /files/scholarship_second_24-25.pdf
+  image: /images/honors/scholarship_second_24-25.jpg
+  name:
+    en: Second-Class University Scholarship (2024-2025)
+    zh: 校级二等奖学金（2024-2025 学年）
+- url: /files/scholarship_third_23-24.pdf
+  image: /images/honors/scholarship_third_23-24.jpg
+  name:
+    en: Third-Class University Scholarship (2023-2024)
+    zh: 校级三等奖学金（2023-2024 学年）
+- url: /files/honor_merit_student_23-24.pdf
+  image: /images/honors/honor_merit_student_23-24.jpg
+  name:
+    en: Merit Student (2023-2024)
+    zh: 三好学生（2023-2024 学年）
+- url: /files/honor_student_cadre_24-25.pdf
+  image: /images/honors/honor_student_cadre_24-25.jpg
+  name:
+    en: Outstanding Student Cadre (2024-2025)
+    zh: 优秀学生干部（2024-2025 学年）
+- url: /files/honor_league_secretary_25.pdf
+  image: /images/honors/honor_league_secretary_25.jpg
+  name:
+    en: Outstanding League Branch Secretary (2025)
+    zh: 优秀团支部书记（2025 学年）
+- url: /files/honor_peer_mentor_25.pdf
+  image: /images/honors/honor_peer_mentor_25.jpg
+  name:
+    en: Outstanding Peer Mentor Volunteer (2025)
+    zh: 优秀朋辈辅导员志愿者（2025 学年）

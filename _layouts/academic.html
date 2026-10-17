@@ -1,0 +1,112 @@
+<!doctype html>
+{% assign lang = page.lang | default: 'en' %}
+{% assign ui = site.data.homepage.ui[lang] %}
+<html lang="{% if lang == 'zh' %}zh-CN{% else %}en{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ ui.name }} · {{ ui.page_title }}</title>
+  <meta name="description" content="{{ ui.description | escape }}">
+  <meta name="theme-color" content="#f8f8f4">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="zh-CN" href="{{ '/zh/' | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ ui.name }} · {{ ui.page_title }}">
+  <meta property="og:description" content="{{ ui.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/profile.png' | absolute_url }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ ui.skip }}</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="{{ page.url | relative_url }}" aria-label="{{ ui.name }}"><span class="monogram" aria-hidden="true">mz<span>.</span></span><span class="wordmark-name">Mengke Zhang</span></a>
+      <nav class="main-nav" aria-label="{{ ui.navigation }}">
+        <a href="#about" class="active">{{ ui.about }}</a>
+        <a href="#publications">{{ ui.research }}</a>
+        <a href="#experience">{{ ui.experience }}</a>
+        <a href="#honors">{{ ui.honors }}</a>
+      </nav>
+      <div class="language-switch" aria-label="{{ ui.language }}"><a href="{{ '/' | relative_url }}" lang="en" {% if lang == 'en' %}aria-current="page"{% endif %}>EN</a><span aria-hidden="true">/</span><a href="{{ '/zh/' | relative_url }}" lang="zh-CN" {% if lang == 'zh' %}aria-current="page"{% endif %}>中文</a></div>
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+    <section class="hero" id="about" aria-labelledby="intro-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>{{ ui.eyebrow }}</p>
+        <h1 id="intro-title">{{ ui.name }}<span class="name-secondary">{{ ui.other_name }}</span></h1>
+        <p class="hero-statement">{{ ui.statement }}</p>
+        <div class="biography">{{ ui.biography }}</div>
+        <div class="contact-links">
+          <a class="primary-link" href="mailto:{{ site.author.email }}">{{ ui.email }} <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="{{ '/files/CV_ZHANG_Mengke.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">{{ ui.cv }} <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <figure class="profile">
+        <div class="portrait-frame"><img src="{{ '/images/profile.png' | relative_url }}" alt="{{ ui.name }}" width="480" height="600" fetchpriority="high"></div>
+        <figcaption><span>{{ ui.profile_caption }}</span><span class="portrait-coordinate" aria-hidden="true">01 / MZ</span></figcaption>
+      </figure>
+      <div class="research-interests"><span class="small-label">{{ ui.interests }}</span><ul>{% for interest in ui.topics %}<li>{{ interest }}</li>{% endfor %}</ul></div>
+    </section>
+
+    <section class="news-section" id="news" aria-labelledby="news-title">
+      <div class="section-heading"><div><span class="section-number">01</span><h2 id="news-title">{{ ui.news }}</h2></div><span class="section-aside">{{ ui.news_aside }}</span></div>
+      <ul class="news-list">{% for item in site.data.homepage.news limit: 3 %}<li><time>{{ item.date }}</time><div>{{ item[lang] }}</div></li>{% endfor %}</ul>
+      <details class="past-news"><summary>{{ ui.earlier_news }} <span aria-hidden="true">+</span></summary><ul class="news-list">{% for item in site.data.homepage.news offset: 3 %}<li><time>{{ item.date }}</time><div>{{ item[lang] }}</div></li>{% endfor %}</ul></details>
+    </section>
+
+    <section id="publications" class="publications-section" aria-labelledby="publications-title">
+      <div class="section-heading"><div><span class="section-number">02</span><h2 id="publications-title">{{ ui.publications }}</h2></div><span class="section-aside">{{ ui.equal }}</span></div>
+      <div class="publication-toolbar" hidden>
+        <div class="filters" role="group" aria-label="{{ ui.filter_label }}"><button type="button" class="is-active" data-filter="all" aria-pressed="true">{{ ui.all }}</button><button type="button" data-filter="vision" aria-pressed="false">{{ ui.vision }}</button><button type="button" data-filter="audio" aria-pressed="false">{{ ui.audio }}</button></div>
+        <button type="button" class="view-toggle" aria-pressed="false" data-detail-label="{{ ui.detail_view }}" data-list-label="{{ ui.list_view }}"><span aria-hidden="true">☷</span> <span class="view-label">{{ ui.list_view }}</span></button>
+      </div>
+      <p class="sr-only" id="filter-status" role="status" aria-live="polite" data-result-label="{{ ui.result_label }}"></p>
+      <div class="publication-list" id="publication-list">
+        {% for paper in site.data.homepage.publications %}
+        <article class="publication" data-category="{{ paper.category }}" id="{{ paper.id }}">
+          <a class="publication-image" href="{{ paper.primary_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ paper.title | escape }}"><img src="{{ paper.image | relative_url }}" alt="{{ paper.alt[lang] | escape }}" width="640" height="380" loading="lazy"></a>
+          <div class="publication-body">
+            <div class="paper-meta"><span class="venue">{{ paper.venue }}</span><span class="paper-category">{{ paper.category_label[lang] }}</span></div>
+            <h3><a href="{{ paper.primary_url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a></h3>
+            <p class="authors">{{ paper.authors }}</p>
+            <p class="paper-description">{{ paper.summary[lang] }}</p>
+            <div class="paper-links">{% for link in paper.links %}<a href="{{ link.url }}" target="_blank" rel="noopener noreferrer"{% if link.note %} title="{{ link.note[lang] | escape }}"{% endif %}>{{ link.label }} <span aria-hidden="true">↗</span></a>{% endfor %}</div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      <div class="review-note"><span class="small-label">{{ ui.ongoing }}</span><p>{{ ui.review_note }}</p></div>
+    </section>
+
+    <section id="experience" class="experience-section" aria-labelledby="experience-title">
+      <div class="section-heading"><div><span class="section-number">03</span><h2 id="experience-title">{{ ui.experience }}</h2></div><span class="section-aside">{{ ui.experience_aside }}</span></div>
+      <div class="experience-list">
+        {% for item in site.data.homepage.experience %}
+        <article class="experience-item"><div class="experience-date">{{ item.date[lang] }}</div><div class="institution-logo"><img src="{{ item.logo | relative_url }}" alt="" width="48" height="48" loading="lazy"></div><div class="experience-content"><h3>{{ item.name[lang] }}</h3><p class="experience-role">{{ item.role[lang] }}</p><p class="experience-description">{{ item.description[lang] }}</p></div></article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section" aria-labelledby="skills-title">
+      <div class="section-heading"><div><span class="section-number">04</span><h2 id="skills-title">{{ ui.skills }}</h2></div></div>
+      <dl class="skills-list">{% for item in site.data.homepage.skills %}<div><dt>{{ item.name[lang] }}</dt><dd>{{ item.value }}</dd></div>{% endfor %}</dl>
+    </section>
+
+    <section id="honors" class="honors-section" aria-labelledby="honors-title">
+      <div class="section-heading"><div><span class="section-number">05</span><h2 id="honors-title">{{ ui.honors }}</h2></div><span class="section-aside">{{ ui.honors_aside }}</span></div>
+      <div class="awards-list" id="competitions">{% for item in site.data.homepage.awards %}<div class="award"><span class="award-date">{{ item.year }}</span><div><h3>{{ item.name[lang] }}</h3><p>{{ item.prize[lang] }}{% if item.url %} <a href="{{ item.url | relative_url }}" target="_blank" rel="noopener noreferrer">{{ ui.certificate }} <span aria-hidden="true">↗</span></a>{% endif %}</p></div></div>{% endfor %}</div>
+      <details class="honors-details"><summary>{{ ui.more_honors }} <span aria-hidden="true">+</span></summary><div class="honor-gallery">{% for item in site.data.homepage.honors %}<a href="{{ item.url | relative_url }}" target="_blank" rel="noopener noreferrer"><div><img src="{{ item.image | relative_url }}" alt="{{ item.name[lang] | escape }}" width="320" height="220" loading="lazy"></div><span>{{ item.name[lang] }} <span aria-hidden="true">↗</span></span></a>{% endfor %}</div></details>
+    </section>
+
+    <section class="contact-section" aria-labelledby="contact-title"><div><p class="eyebrow">{{ ui.contact_eyebrow }}</p><h2 id="contact-title">{{ ui.contact_title }}</h2><p>{{ ui.contact_description }}</p></div><a href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer"><span>© {{ site.time | date: '%Y' }} Mengke Zhang</span><span>{{ ui.updated }} <time datetime="2026-10-17">{{ ui.update_date }}</time></span><a href="#about">{{ ui.back_top }} <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>

@@ -1,209 +1,42 @@
-﻿# WowPage
+# Mengke Zhang · Academic Homepage
 
-WowPage is a clean, responsive academic homepage built with Jekyll and adapted from the Academic Pages theme. It is designed for students, researchers, and engineers who want a personal website for introducing their profile, publications, projects, experience, awards, talks, services, and CV.
+Personal academic website at <https://zmkshakespar.github.io/>, with English and Chinese pages. The homepage uses a lightweight editorial layout: warm paper colors, serif headings, publication figures, and responsive navigation. It runs on the existing GitHub Pages / Jekyll setup without a frontend build step or external font dependencies.
 
-Template is originated from [selen-suyue.github.io](https://selen-suyue.github.io/).
-Example：[wd7ang.github.io](https://wd7ang.github.io).
-## Features
+## Updating content
 
-- Academic-style homepage with author profile sidebar
-- Single-page navigation for news, experience, publications, projects, awards, services, and talks
-- Custom homepage styling through `assets/css/home.css`
-- Publication filtering on the homepage
-- CV link support through the navigation menu
-- Social profile fields managed from `_config.yml`
-- GitHub Pages compatible Jekyll setup
-- Sitemap and feed support through Jekyll plugins
+- `_data/homepage.yml` contains both languages, news, publications, research and education experience, skills, competitions, and honors. Update matching `en` and `zh` fields together.
+- `_config.yml` supplies the contact email and GitHub username.
+- `_pages/about.md` and `_pages/about_zh.md` select the shared layout and define `/` and `/zh/`. The existing `/about/` and `/about.html` redirects are retained.
+- `_layouts/academic.html` contains the homepage structure and navigation.
+- `assets/css/academic.css` controls typography, colors, responsive layouts, and print styles.
+- `assets/js/academic.js` handles publication filters, compact list mode, and navigation highlighting. All publication content remains readable without JavaScript.
+- `images/` and `files/` retain profile photos, publication figures, organization logos, certificates, papers, and the CV.
 
-## Project Structure
+Each publication has a stable `id`, `category` (`vision` or `audio`), venue, authors, bilingual summary, figure, and resource links. Use complete HTTPS URLs for external resources and root-relative paths for local PDFs. Keep repository release notes accurate when linking implementations that are pending release.
 
-```text
-.
-├── _config.yml              # Main site configuration and author metadata
-├── _data/
-│   ├── navigation.yml       # Header navigation links
-│   ├── authors.yml          # Optional author data
-│   └── ui-text.yml          # Theme UI text
-├── _includes/               # Reusable Liquid partials
-├── _layouts/                # Page layout templates
-├── _pages/                  # Main site pages, including the homepage
-├── _sass/                   # Theme Sass source files
-├── assets/                  # CSS, JavaScript, and theme assets
-├── images/                  # Profile, logos, publication images, and other media
-├── markdown_generator/      # Helper scripts/templates for generating markdown content
-├── talkmap/                 # Talk map page assets
-├── Gemfile                  # Ruby/Jekyll dependencies
-├── package.json             # JavaScript build dependencies and scripts
-└── LICENSE
-```
+The footer update date is in `_data/homepage.yml` (`ui.en.update_date` and `ui.zh.update_date`); its machine-readable date is in `_layouts/academic.html`.
 
-## Getting Started
+## Local development
 
-### Prerequisites
+Install Ruby and Bundler, then run:
 
-Install the following tools before running the site locally:
-
-- Ruby and Bundler
-- Node.js and npm
-- Git
-
-### Installation
-
-Clone the repository and install dependencies:
-
-```bash
-git clone <your-repository-url>
-cd WowPage
+```sh
 bundle install
-npm install
-```
-
-### Run Locally
-
-Start the Jekyll development server:
-
-```bash
 bundle exec jekyll serve
 ```
 
-Then open the local URL shown in the terminal, usually:
+Open <http://127.0.0.1:4000/> and <http://127.0.0.1:4000/zh/>. To generate the production site:
 
-```text
-http://127.0.0.1:4000/
-```
-
-### Build the Site
-
-Generate the static site:
-
-```bash
+```sh
 bundle exec jekyll build
 ```
 
-The generated files will be written to `_site/`.
-
-## Customization
-
-### Basic Site Information
-
-Edit `_config.yml` to update the site title, description, URL, author name, biography, affiliation, location, email, avatar, and social links.
-
-Important fields include:
-
-```yaml
-title: "WowPage"
-name: "Your Name"
-description: "A clean academic homepage template."
-author:
-  avatar: "1.png"
-  name: "Your Name"
-  bio: "Student and researcher."
-  location: "City, Country"
-  employer: "Institution or Company"
-  email: "name@example.com"
-```
-
-### Homepage Content
-
-The homepage content is mainly maintained in:
-
-```text
-_pages/about.md
-```
-
-Update this file to edit sections such as news, experience, publications, projects, awards, services, talks, and the introductory text.
-
-### Navigation
-
-Edit the navigation menu in:
-
-```text
-_data/navigation.yml
-```
-
-For example:
-
-```yaml
-main:
-  - title: "News"
-    url: "/#news"
-  - title: "Experience"
-    url: "/#experience"
-  - title: "Pub"
-    url: "/#publications"
-  - title: "CV-En"
-    url: "/files/weidongtang_resume.pdf"
-```
-
-### Images and Media
-
-Place profile photos, organization logos, project images, publication thumbnails, and other visual assets in:
-
-```text
-images/
-```
-
-Reference them from pages using paths such as:
-
-```html
-<img src="images/example.png" alt="Example image">
-```
-
-### JavaScript and CSS
-
-Custom homepage styles can be edited in:
-
-```text
-assets/css/home.css
-```
-
-JavaScript assets are built with npm:
-
-```bash
-npm run build:js
-```
+The new homepage stylesheet and script are used directly; no npm build is required. Older AcademicPages layouts and their assets remain available for other pages.
 
 ## Deployment
 
-This site is compatible with GitHub Pages.
+GitHub Pages builds from the root of the `main` branch. Push content changes to that branch and check the Pages build/deployment result before assuming the live website has updated. The separate OpenDepth project site remains at <https://zmkshakespar.github.io/OpenDepth/>.
 
-A typical deployment workflow is:
+## License and attribution
 
-1. Push the repository to GitHub.
-2. Open the repository settings on GitHub.
-3. Enable GitHub Pages.
-4. Select the branch and folder used for deployment.
-5. Update `url`, `baseurl`, and `repository` in `_config.yml` if needed.
-
-For a user or organization site, the repository is commonly named:
-
-```text
-<username>.github.io
-```
-
-For a project site, set `baseurl` to the repository name:
-
-```yaml
-url: "https://<username>.github.io"
-baseurl: "/<repository-name>"
-```
-
-## Content Checklist
-
-Before publishing, consider updating:
-
-- Author name, bio, institution, location, and email in `_config.yml`
-- Avatar and profile images in `images/`
-- Navigation links in `_data/navigation.yml`
-- Homepage sections in `_pages/about.md`
-- CV file and CV link
-- Publication metadata, project descriptions, and external links
-- Analytics or site verification settings, if needed
-
-## License
-
-This project is released under the MIT License. See `LICENSE` for details.
-
-## Acknowledgements
-
-We appreciate your use of this template and look forward to your contributions. Contributors are welcome to voluntarily submit homepages built with this template for inclusion in our showcase.
+MIT License; see `LICENSE`. The repository retains its original AcademicPages/Jekyll theme components. The earlier WowPage template originated from [selen-suyue.github.io](https://selen-suyue.github.io/), based on [AcademicPages](https://github.com/academicpages/academicpages.github.io).
