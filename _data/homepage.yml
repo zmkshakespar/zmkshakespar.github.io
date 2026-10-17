@@ -21,6 +21,7 @@ ui:
       Lab</a>, The University of Hong Kong.</p><p>My work spans multimodal learning, computer vision, and generative
       models — from robust depth estimation and image restoration to speech understanding and security.</p>
     email: Say hello
+    scholar: Google Scholar
     cv: Curriculum vitae
     profile_caption: Beijing, China
     interests: Research interests
@@ -72,6 +73,7 @@ ui:
     biography: <p>我是<a href="https://www.bupt.edu.cn/">北京邮电大学</a>物联网工程专业本科生，目前在香港大学 <a href="https://meweb.hku.hk/zljiang/">Medical
       Intelligence and Robotic Cognition (MIRoC) Lab</a> 担任科研实习生。</p><p>我的研究围绕多模态学习、计算机视觉与生成模型展开，涵盖鲁棒深度估计、图像复原、语音理解与安全等方向。</p>
     email: 联系我
+    scholar: 谷歌学术
     cv: 个人简历
     profile_caption: 中国 · 北京
     interests: 研究兴趣

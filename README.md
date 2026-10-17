@@ -5,7 +5,7 @@ Personal academic website at <https://zmkshakespar.github.io/>, with English and
 ## Updating content
 
 - `_data/homepage.yml` contains both languages, news, publications, research and education experience, skills, competitions, and honors. Update matching `en` and `zh` fields together.
-- `_config.yml` supplies the contact email and GitHub username.
+- `_config.yml` supplies the contact email, Google Scholar profile URL, and GitHub username.
 - `_pages/about.md` and `_pages/about_zh.md` select the shared layout and define `/` and `/zh/`. The existing `/about/` and `/about.html` redirects are retained.
 - `_layouts/academic.html` contains the homepage structure and navigation.
 - `assets/css/academic.css` controls typography, colors, responsive layouts, and print styles.

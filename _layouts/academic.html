@@ -47,6 +47,7 @@
         <div class="biography">{{ ui.biography }}</div>
         <div class="contact-links">
           <a class="primary-link" href="mailto:{{ site.author.email }}">{{ ui.email }} <span aria-hidden="true">↗</span></a>
+          {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar | escape }}" target="_blank" rel="noopener noreferrer">{{ ui.scholar }} <span aria-hidden="true">↗</span></a>{% endif %}
           <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
           <a href="{{ '/files/CV_ZHANG_Mengke.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">{{ ui.cv }} <span aria-hidden="true">↗</span></a>
         </div>
@@ -110,6 +111,6 @@
 
     <section class="contact-section" aria-labelledby="contact-title"><div><p class="eyebrow">{{ ui.contact_eyebrow }}</p><h2 id="contact-title">{{ ui.contact_title }}</h2><p>{{ ui.contact_description }}</p></div><a href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a></section>
   </main>
-  <footer class="site-footer"><span>© {{ site.time | date: '%Y' }} Mengke Zhang</span><span>{{ ui.updated }} <time datetime="2026-10-17">{{ ui.update_date }}</time></span><a href="#about">{{ ui.back_top }} <span aria-hidden="true">↑</span></a></footer>
+  <footer class="site-footer"><span>© {{ site.time | date: '%Y' }} Mengke Zhang</span><span>{{ ui.updated }} <time datetime="2026-10-18">{{ ui.update_date }}</time></span><a href="#about">{{ ui.back_top }} <span aria-hidden="true">↑</span></a></footer>
 </body>
 </html>
