@@ -1,6 +1,6 @@
 # Mengke Zhang · Academic Homepage
 
-Personal academic website at <https://zmkshakespar.github.io/>, with English and Chinese pages. The homepage uses a lightweight editorial layout: warm paper colors, serif headings, publication figures, and responsive navigation. It runs on the existing GitHub Pages / Jekyll setup without a frontend build step or external font dependencies.
+Personal academic website at <https://zmkshakespar.github.io/>, with English and Chinese pages. The homepage uses a lightweight editorial layout: a cool blue-gray palette, readable typography, serif headings, publication figures, and responsive navigation. It runs on the existing GitHub Pages / Jekyll setup without a frontend build step or external font dependencies.
 
 ## Updating content
 

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ ui.name }} · {{ ui.page_title }}</title>
   <meta name="description" content="{{ ui.description | escape }}">
-  <meta name="theme-color" content="#f8f8f4">
+  <meta name="theme-color" content="#f6f8fc">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
   <link rel="alternate" hreflang="zh-CN" href="{{ '/zh/' | absolute_url }}">
@@ -16,8 +16,11 @@
   <meta property="og:description" content="{{ ui.description | escape }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:image" content="{{ '/images/profile.png' | absolute_url }}">
-  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}?v=mz-blue-2" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}?v=mz-blue-2" sizes="any">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}?v=mz-blue-2">
+  <link rel="manifest" href="{{ '/images/manifest.json' | relative_url }}?v=mz-blue-2">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}?v=blue-readable-2">
   <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
 </head>
 <body>
